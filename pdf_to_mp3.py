@@ -17,5 +17,5 @@ def pdf_to_audio(pdf):
     tts.save('Audio.mp3')
     
 if __name__=='__main__':
-    path_pdf = 'Coloque aqui o caminho do pdf.'
+    path_pdf = 'Caminho do Arquivo.'
     pdf_to_audio(path_pdf)
