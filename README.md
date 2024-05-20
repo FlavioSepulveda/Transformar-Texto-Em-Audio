@@ -16,7 +16,7 @@
 - Sugerivel a criação de um ambiente virtual.
   -> Comando: *`python -m venv 'nome_da_pasta_venv'`*
 - Para ativar o ambiente virtual no teminal utilize o comando
-  -> *`.`*
+  -> *`.\.venv\Scripts\Activate`*
 - Dentro do ambiente virtual para instalar os pacotes nescessarios utilize o seguinte comando:
   -> *`pip install -r requirements.txt--`*
 
