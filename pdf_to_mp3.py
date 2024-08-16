@@ -12,10 +12,11 @@ def pdf_to_audio(pdf):
     for pages in reader.pages:
         text_total += pages.extract_text() + ' '
         
-    # Convertendo texto para audio
+    # Convertendo texto para audio -
     tts = gTTS(text=text_total, lang='pt')
     tts.save('Audio.mp3')
-    
+
+# Salvando arquivo de audio -     
 if __name__=='__main__':
     path_pdf = 'Caminho do Arquivo.'
     pdf_to_audio(path_pdf)
